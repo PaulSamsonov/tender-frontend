@@ -57,8 +57,8 @@ let market: Market = {
   marketData: {
     depositApy: "99.99%",
     borrowApy: "66.66%",
-    totalBorrowedUsd: "200000000",
-    marketSizeUsd: "3000000000000000",
+    totalBorrowed: 200000000,
+    marketSize: 3000000000000000,
   },
   walletBalance: 40000000000,
   supplyBalance: 500000000000,

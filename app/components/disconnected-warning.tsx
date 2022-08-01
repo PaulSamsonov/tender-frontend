@@ -14,7 +14,8 @@ export default function Disconnected() {
     if (!p) {
       return;
     }
-    let targetNetworkId = 1088;
+    // let targetNetworkId = 1088;
+    let targetNetworkId = 588;
     let targetNetworkIdHex = `0x${targetNetworkId.toString(16)}`;
 
     p?.provider?.request &&
@@ -33,10 +34,10 @@ export default function Disconnected() {
                 method: "wallet_addEthereumChain",
                 params: [
                   {
-                    chainName: "Metis Network",
+                    chainName: "Stardust Testnet Network",
                     nativeCurrency: {
-                      name: "Metis",
-                      symbol: "METIS", // 2-6 characters long
+                      name: "tMetis",
+                      symbol: "TMETIS", // 2-6 characters long
                       decimals: 18,
                     },
                     rpcUrls: ["https://andromeda.metis.io/?owner=1088"],
