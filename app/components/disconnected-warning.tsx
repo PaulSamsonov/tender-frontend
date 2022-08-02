@@ -66,7 +66,7 @@ export default function Disconnected() {
             className="underline"
             onClick={() => tryConnectingToMetis(provider)}
           >
-            Switch to Metis
+            Switch to Stardust Testnet
           </button>
         </div>
       )}
